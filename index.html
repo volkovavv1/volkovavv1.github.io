@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test task</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <section class="my-team">
+            <h2 class="my-team__heading">
+                Моя команда
+            </h2>
+            <div class="container">
+                <div class="card">
+                    <h4 class="card-heading heading-info">
+                        Обученность команды
+                    </h4>
+                    <div class="card-content">
+                        <div class="diagram__circle">
+                            <svg width="160" height="160" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M160 80C160 124.183 124.183 160 80 160C35.8172 160 0 124.183 0 80C0 35.8172 35.8172 0 80 0C124.183 0 160 35.8172 160 80ZM16 80C16 115.346 44.6538 144 80 144C115.346 144 144 115.346 144 80C144 44.6538 115.346 16 80 16C44.6538 16 16 44.6538 16 80Z" fill="#E7F1F9"/>
+                                <path d="M80 0C94.7538 1.75937e-07 109.22 4.07995 121.8 11.7888C134.38 19.4976 144.582 30.535 151.281 43.6807C157.979 56.8264 160.911 71.5684 159.753 86.2767C158.596 100.985 153.393 115.087 144.721 127.023C136.049 138.959 124.245 148.264 110.615 153.91C96.9841 159.556 82.0575 161.323 67.4854 159.015C52.9132 156.707 39.2631 150.414 28.0443 140.833C16.8254 131.251 8.47473 118.753 3.91553 104.722L19.1324 99.7772C22.7798 111.003 29.4603 121.001 38.4354 128.666C47.4105 136.331 58.3306 141.366 69.9883 143.212C81.646 145.058 93.5872 143.645 104.492 139.128C115.396 134.611 124.839 127.167 131.777 117.618C138.715 108.069 142.877 96.788 143.803 85.0213C144.729 73.2547 142.383 61.4611 137.024 50.9446C131.666 40.428 123.504 31.5981 113.44 25.431C103.376 19.264 91.803 16 80 16V0Z" fill="#00A75C"/>
+                                <path d="M3.91548 104.721C-1.30519 88.6538 -1.30516 71.3459 3.91557 55.2784L19.1325 60.2227C14.9559 73.0767 14.9558 86.923 19.1324 99.7771L3.91548 104.721Z" fill="#E9841D"/>
+                                <path d="M3.91548 55.2786C9.13615 39.2111 19.3095 25.2087 32.9774 15.2785L42.3819 28.2228C31.4476 36.167 23.3089 47.3689 19.1324 60.2229L3.91548 55.2786Z" fill="#EC133D"/>
+                                <path d="M32.9772 15.2786C46.645 5.34838 63.1057 -8.25731e-06 80 0L80 16C66.4846 16 53.316 20.2787 42.3818 28.2229L32.9772 15.2786Z" fill="#B6D4ED"/>
+                            </svg>
+                            <p class="number__big">
+                                70%
+                            </p>
+                        </div>
+                        <div class="diagram__legend">
+                            <p class="list-heading">
+                                Курсы и траектории
+                            </p>
+                            <div class="list-wrapper">
+                                <ul class="list-status">
+                                    <li class="list-li list-status__li">Завершено</li>
+                                    <li class="list-li list-status__li">В процессе</li>
+                                    <li class="list-li list-status__li">Не пройдено</li>
+                                    <li class="list-li list-status__li">Не начато</li>
+                                </ul>
+                                <ul class="list-percent">
+                                    <li class="list-li">70% <span class="span__lightgray">(7)</span></li>
+                                    <li class="list-li">10% <span class="span__lightgray">(1)</span></li>
+                                    <li class="list-li">10% <span class="span__lightgray">(1)</span></li>
+                                    <li class="list-li">10% <span class="span__lightgray">(1)</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4 class="card-heading heading-info">
+                        Прогресс сотрудников
+                    </h4>
+                    <div class="diagram-wrapper">
+                        <div class="diagram__arc">
+                            <svg class="gray" width="200" height="100" viewBox="0 0 200 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M200 100C200 86.8678 197.413 73.8642 192.388 61.7317C187.362 49.5991 179.997 38.5752 170.711 29.2893C161.425 20.0035 150.401 12.6375 138.268 7.61205C126.136 2.58658 113.132 -5.74026e-07 100 0C86.8678 5.74026e-07 73.8642 2.58658 61.7317 7.61205C49.5991 12.6375 38.5752 20.0035 29.2893 29.2893C20.0035 38.5752 12.6375 49.5991 7.61204 61.7317C2.58657 73.8642 -1.14805e-06 86.8678 0 100L20 100C20 89.4943 22.0693 79.0914 26.0896 69.3853C30.11 59.6793 36.0028 50.8601 43.4315 43.4315C50.8601 36.0028 59.6793 30.11 69.3853 26.0896C79.0914 22.0693 89.4942 20 100 20C110.506 20 120.909 22.0693 130.615 26.0896C140.321 30.11 149.14 36.0028 156.569 43.4315C163.997 50.8601 169.89 59.6793 173.91 69.3853C177.931 79.0914 180 89.4943 180 100H200Z" fill="#E7F1F9"/>
+                            </svg>
+                            <svg class="diagram-particle__orange" width="58" height="85" viewBox="0 0 58 85" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M47.0081 0.195174C32.7237 9.12105 20.9254 21.5105 12.7079 36.2138C4.49045 50.9172 0.12011 67.458 0.00244019 84.3014L20.002 84.4411C20.0961 70.9664 23.5924 57.7337 30.1663 45.9711C36.7403 34.2084 46.179 24.2968 57.6065 17.1561L47.0081 0.195174Z" fill="#E9841D"/>
+                            </svg>
+                            <p class="number__big number__arc">2/5</p>
+                        </div>
+                        <p class="card-text__center">
+                            сотрудников завершили обучение
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <h4 class="card-heading">
+                        Обратите внимание
+                    </h4>
+                    <ul class="list-attention">
+                        <li class="attention-li">
+                            <img alt="attention" src="./img/attention.svg" class="attention-img"> 
+                            <p class="attention-text">
+                                Не прошли обучение: 1
+                            </p>
+                        </li>
+                        <li class="attention-li">
+                            <img alt="attention" src="./img/attention.svg" class="attention-img"> 
+                            <p class="attention-text">
+                                Не заходили на портал: 1
+                            </p>
+                        </li>
+                        <li class="attention-li">
+                            <img alt="attention" src="./img/attention.svg" class="attention-img"> 
+                            <p class="attention-text">
+                                Не были более 2 недель: 1
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

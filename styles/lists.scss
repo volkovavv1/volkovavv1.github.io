@@ -1,0 +1,81 @@
+.list-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 12px 0 0 20px;
+    max-width: 203px;
+}
+
+.list-status__li, 
+.list-li {
+    height: 20px;
+    padding-bottom: 8px;
+}
+
+.list-status__li::marker {
+    font-size: larger;
+}
+
+.list-status__li:nth-child(1)::marker {
+    color: $green;
+}
+
+.list-status__li:nth-child(2)::marker {
+    color: $orange;
+}
+
+.list-status__li:nth-child(3)::marker {
+    color: $red;
+}
+
+.list-status__li:nth-child(4)::marker {
+    color: rgb(182, 212, 237);
+}
+
+.list-percent, 
+.list-attention {
+    list-style: none;
+}
+
+.list-percent,
+.list-status {
+    height: 104px;
+}
+
+.list-status {
+    padding-right: 14px;
+}
+
+.span__lightgray {
+    color: #808080;
+}
+
+.list-heading {
+    line-height: 18px;
+    padding-left: 20px;
+}
+
+.list-attention {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.attention-li {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+
+    padding: 4px 12px 4px 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(231, 241, 249, 1);
+
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.attention-img {
+    display: block;
+    height: 16px;
+    width: 16px;
+}
